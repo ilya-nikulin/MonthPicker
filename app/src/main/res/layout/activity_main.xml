@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bankproductDetailsMonthPickerFrame"
+        android:visibility="visible">
+
+        <ru.simpls.monthpicker.MonthPickerScroll
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/monthPicker">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/monthPickerLayout">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="January"
+                    android:id="@+id/monthSelector1"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="February"
+                    android:id="@+id/monthSelector2"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="March"
+                    android:id="@+id/monthSelector3"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="April"
+                    android:id="@+id/monthSelector4"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="May"
+                    android:id="@+id/monthSelector5"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="June"
+                    android:id="@+id/monthSelector6"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="July"
+                    android:id="@+id/monthSelector7"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="August"
+                    android:id="@+id/monthSelector8"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="September"
+                    android:id="@+id/monthSelector9"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="October"
+                    android:id="@+id/monthSelector10"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="November"
+                    android:id="@+id/monthSelector11"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:text="December"
+                    android:id="@+id/monthSelector12"
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:gravity="center"
+                    android:textSize="15dp"
+                    android:textColor="@color/bankproduct_type_text" />
+
+            </LinearLayout>
+        </ru.simpls.monthpicker.MonthPickerScroll>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView6"
+            android:src="@drawable/month_picker_bg" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center"
+            android:src="@drawable/month_picker_arrows" />
+    </FrameLayout>
+
+</LinearLayout>

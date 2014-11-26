@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color_base">#ff2babac</color>
+    <color name="bg_color_actionbar">#ff20abac</color>
+    <color name="bg_color_main">#fff5f5f5</color>
+    <color name="text_color_grey">#ffc2c5cc</color>
+    <color name="left_drawer_bg">#ff171919</color>
+    <color name="left_drawer_divider">#ff494f52</color>
+    <color name="left_drawer_tab_bg">#ff222526</color>
+    <color name="left_drawer_tab_selected">#ff373a3c</color>
+    <color name="bankproducts_divider">#ffcdd1d1</color>
+    <color name="actionbar_divider">#ff79cdce</color>
+    <color name="btn_grey_text">#ff73818e</color>
+    <color name="login_modal_divider">#ffcdd1d1</color>
+    <color name="bankproduct_type_text">#ff707e8c</color>
+    <color name="bankproduct_name_text">#ff1f2226</color>
+    <color name="bankproduct_card_bg_top">#ffffffff</color>
+    <color name="bankproduct_card_bg_bottom">#ffe6eaf2</color>
+    <color name="white">#ffffffff</color>
+    <color name="template_color_1">#ffe55c5c</color>
+    <color name="template_color_2">#ffe58a5c</color>
+    <color name="template_color_3">#ffe5b85c</color>
+    <color name="template_color_4">#ffe5e55c</color>
+    <color name="template_color_5">#ffb8e55c</color>
+    <color name="template_color_6">#ff8ae55c</color>
+    <color name="template_color_7">#ff5ce55c</color>
+    <color name="template_color_8">#ff5ce58a</color>
+    <color name="template_color_9">#ff5ce5b8</color>
+    <color name="template_color_10">#ff5ce5e5</color>
+    <color name="template_color_11">#ff5cb8e5</color>
+    <color name="template_color_12">#ff5c8ae5</color>
+    <color name="template_color_13">#ff5c5ce5</color>
+    <color name="template_color_14">#ff8a5ce5</color>
+    <color name="template_color_15">#ffb85ce5</color>
+    <color name="template_color_16">#ffe55ce5</color>
+    <color name="template_color_17">#ffe55cb8</color>
+    <color name="template_color_18">#ffe55c8a</color>
+    <color name="bar_button_trash">#ffe9242c</color>
+    <color name="payments_gridview_border">#64ffffff</color>
+    <color name="how_to_text">#ff027375</color>
+    <color name="how_to_selected">#ff048284</color>
+    <color name="bankproduct_fill_bg">#ff888d99</color>
+    <color name="bankproduct_withdraw_bg">#ffa4a9b3</color>
+    <color name="bankproduct_pay_bg">#ffc2c5cc</color>
+    <color name="banner_bg_1">#ff7abecc</color>
+
+</resources>
